@@ -33,7 +33,7 @@ jobs:
     - name: Check update
       env:
         TOKEN: ${{ secrets.TOKEN }}
-        REPO: 'sgpublic/lombok-plugin-action'
+        REPO: 'spianmo/lombok-plugin-action'
       run: |
         cd /workdir
         ./action -token $TOKEN -repo $REPO
